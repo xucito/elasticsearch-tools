@@ -4,9 +4,9 @@ import ssl
 from elasticsearch.connection import create_ssl_context
 from elasticsearch.helpers import scan
 
-username = ''
-password = ''
-url = ''  # url or ip-address of the node
+username = 'elastic'
+password = 'Z4oO2zrTP5gnuhFf0Bta'
+url = '10.10.10.9'  # url or ip-address of the node
 port = 9200
 scheme = 'https'
 index = 'logs'
